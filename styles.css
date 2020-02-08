@@ -1,0 +1,28 @@
+div {
+    display: block;
+    size: 4px;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(139, 8, 8);
+}
+
+.inner {
+    width: 100%;
+    height: 50%;
+    background-color: coral;
+}
+
+.ele {
+    position: relative;
+    width: 100%;
+    height: auto;   
+    background-color: cyan;
+}
+
+.list {
+    width: 100%;
+    height: auto;
+    background-color: darkkhaki;
+}
