@@ -15,14 +15,32 @@ div {
 }
 
 .ele {
-    position: relative;
-    width: 100%;
-    height: auto;   
-    background-color: cyan;
+    position: relative;   
 }
 
 .list {
     width: 100%;
     height: auto;
     background-color: darkkhaki;
+}
+
+#circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background: #7fee1d;
+}
+
+#square {
+    width: 120px;
+    height: 120px;
+    background: #f447ff;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #fcf921;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
 }
